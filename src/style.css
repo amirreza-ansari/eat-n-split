@@ -29,6 +29,7 @@ body {
   display: flex;
   gap: 3.2rem;
   max-width: 100rem;
+  height: 50rem;
 }
 
 .side-bar {
@@ -86,6 +87,8 @@ button {
 
 .friends-list {
   margin-bottom: 3.2rem;
+  overflow-y: scroll;
+  max-height: 29rem;
 }
 
 .friend > button {
@@ -173,4 +176,8 @@ select {
 
 button:hover {
   cursor: pointer;
+}
+
+.add-friend-btn {
+  margin-top: 1.6rem;
 }
